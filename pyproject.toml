@@ -1,0 +1,15 @@
+[project]
+name = "ai-shopping-agent"
+version = "0.1.0"
+description = "Conversational shopping agent with image search, ratings, and checkout"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain",
+    "langchain-core",
+    "langchain-groq",
+    "python-dotenv",
+    "streamlit",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
